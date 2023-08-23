@@ -10,18 +10,18 @@ body {
 video {
     width: 100%;
     height: auto;
-    max-height: 100vh;
+    max-height: 80vh;
     position: relative;
 }
 
 body::after {
+    display: none;
     position: absolute;
     content: "";
     left: 0;
     right: 0;
     bottom: 0;
     top: 0;
-    /* background-color: red; */
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 30%, rgba(0, 0, 0, 0.3) 100%);
     z-index: 1;
 }
